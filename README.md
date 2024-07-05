@@ -4,11 +4,11 @@
 
 If you find GaussianImage useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@article{zhang2024gaussianimage,
+  title={GaussianImage: 1000 FPS Image Representation and Compression by 2D Gaussian Splatting},
+  author={Zhang, Xinjie and Ge, Xingtong and Xu, Tongda and He, Dailan and Wang, Yan and Qin, Hongwei and Lu, Guo and Geng, Jing and Zhang, Jun},
+  journal={arXiv preprint arXiv:2403.08551},
+  year={2024}
 }
 ```
 
