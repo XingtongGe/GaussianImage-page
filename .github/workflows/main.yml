@@ -11,17 +11,9 @@ jobs:
 
     steps:
     - name: Build
-      uses: actions/checkout@v2
-      run: |
-        echo "执行构建操作..."
-
-    - name: Report Build Status
-      run: |
-        echo "构建状态：成功"
+      uses: actions/checkout@v4
 
     - name: Deploy
-      run: |
-        echo "部署到 GitHub Pages"
       # 如果使用 GitHub Pages 部署动作，可以这样配置
       uses: JamesIves/github-pages-deploy-action@v4
       with:
