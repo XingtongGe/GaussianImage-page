@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        branch: gh-pages  # 这是部署到GitHub Pages使用的分支
+        branch: main  # 这是部署到GitHub Pages使用的分支
         folder: '.'       # 从项目的根目录部署
