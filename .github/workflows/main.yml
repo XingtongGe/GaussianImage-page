@@ -1,24 +1,18 @@
-name: pages-build-deployment
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - main
+      - main  # 这是你的主分支
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Build
-      uses: actions/checkout@v4
+    - uses: actions/checkout@v4
 
-    - name: Deploy
-      # 如果使用 GitHub Pages 部署动作，可以这样配置
+    - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        branch: gh-pages
-        folder: '.' # 确保这里指向你的构建输出目录
-      # 输出部署链接
-      - name: Output Deployment URL
-        run: echo "访问
+        branch: main  # 这是部署到GitHub Pages使用的分支
