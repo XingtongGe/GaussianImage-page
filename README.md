@@ -1,5 +1,7 @@
 # GaussianImage
 
+Project Page: https://xingtongge.github.io/GaussianImage-page/
+
 <!-- This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io). -->
 
 If you find GaussianImage useful for your work please cite:
